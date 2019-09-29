@@ -1,0 +1,22 @@
+{
+  "name": "pesquisa_site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "codeceptjs": "^2.3.2",
+    "webdriverio": "^5.13.2"
+  },
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^5.13.2",
+    "mocha-junit-reporter": "^1.23.1",
+    "mocha-multi": "^1.1.3",
+    "mochawesome": "^4.1.0"
+  }
+}

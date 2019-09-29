@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-09-28T22:13:16.402Z",
+    "end": "2019-09-28T22:14:22.304Z",
+    "duration": 65902,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3dd034f2-86da-49e1-a724-dfe8a8007c35",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "53ef9d42-bff5-49da-a186-ac17a3106c78",
+          "title": "Pesquisa Site",
+          "fullFile": "C:\\Users\\ana_p\\Ana_Projetos\\Pesquisa_Site\\Pesquisa_Site_test.js",
+          "file": "\\Pesquisa_Site_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Pesquisa Site \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 6985,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "55d1aa5a-4969-47f0-af05-a354a6365ac0",
+              "parentUUID": "53ef9d42-bff5-49da-a186-ac17a3106c78",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Pesquisa Site \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 5891,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "30262166-6894-4653-b357-687e1cc332e7",
+              "parentUUID": "53ef9d42-bff5-49da-a186-ac17a3106c78",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Pesquisa Site \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "af9b3a41-5d94-4106-9126-d4048f115c1d",
+              "parentUUID": "53ef9d42-bff5-49da-a186-ac17a3106c78",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Pesquisa Site \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 50,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "6fa2a713-8f99-4701-851d-e626fc4d2c95",
+              "parentUUID": "53ef9d42-bff5-49da-a186-ac17a3106c78",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test something",
+              "fullTitle": "Pesquisa Site: test something",
+              "timedOut": false,
+              "duration": 52956,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I.amOnPage('https://www.google.com.br');\nI.fillField('q','orquideas');\nI.click('btnK');\nI.see('Imagens');\nI.amOnPage('https://www.google.com/search?q=orquidea&sxsrf=ACYBGNRtVCKp3AoVjOAeTY8fWqHh4gpWzA:1569702542988&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjJhOnTrfTkAhW7JbkGHdSaBXYQ_AUIEigB');",
+              "err": {},
+              "uuid": "1c7e30f4-3ce4-4028-82b9-bd5ef68fbf75",
+              "parentUUID": "53ef9d42-bff5-49da-a186-ac17a3106c78",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1c7e30f4-3ce4-4028-82b9-bd5ef68fbf75"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 52956,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "output"
+      },
+      "version": "4.0.1"
+    }
+  }
+}

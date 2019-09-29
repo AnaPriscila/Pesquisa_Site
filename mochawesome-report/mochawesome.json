@@ -1,0 +1,188 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-09-28T23:36:01.250Z",
+    "end": "2019-09-28T23:37:01.747Z",
+    "duration": 60497,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cf347df2-0158-4563-bd1d-e4316436aa5b",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "77fbeb30-370e-42d8-bef7-2298264e471c",
+          "title": "Pesquisa Site",
+          "fullFile": "C:\\Users\\ana_p\\Ana_Projetos\\Pesquisa_Site\\Pesquisa_Site_test.js",
+          "file": "\\Pesquisa_Site_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Pesquisa Site \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 5412,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "aaaf5b3c-4ef1-4377-88ef-09fc3ce0db8b",
+              "parentUUID": "77fbeb30-370e-42d8-bef7-2298264e471c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Pesquisa Site \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 5732,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "02c8e8ea-d320-40fa-aeb3-59faab3d64d5",
+              "parentUUID": "77fbeb30-370e-42d8-bef7-2298264e471c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Pesquisa Site \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "3f2beb7a-e19c-4671-b388-1add99ac6dc4",
+              "parentUUID": "77fbeb30-370e-42d8-bef7-2298264e471c",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Pesquisa Site \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 51,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "2dd094e8-b85f-4bc9-8b4f-baa07d7495c0",
+              "parentUUID": "77fbeb30-370e-42d8-bef7-2298264e471c",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test something",
+              "fullTitle": "Pesquisa Site: test something",
+              "timedOut": false,
+              "duration": 49288,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I.amOnPage('https://www.google.com.br');\nI.fillField('q','orquideas');\nI.click('btnK');\nI.saveScreenshot('imagem1.png',true);\nI.click('Imagens');\nI.saveScreenshot('imagem2.png',true);\nI.click('lindas');\nI.saveScreenshot('imagem3.png',true);",
+              "err": {},
+              "uuid": "476e651d-1e72-4ffe-832a-fbaf1ad8fc0f",
+              "parentUUID": "77fbeb30-370e-42d8-bef7-2298264e471c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "476e651d-1e72-4ffe-832a-fbaf1ad8fc0f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 49288,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "Mochawesome": {
+          "stdout": "./output/console.log",
+          "options": {
+            "reportDir": "./output",
+            "reportFilename": "report",
+            "reportPageTitle": "Pesquisa - Acceptance Tests",
+            "reportTitle": "Pesquisa - Acceptance Tests",
+            "autoOpen": true,
+            "enabledCode": true,
+            "inlineAssets": true,
+            "overwrite": true,
+            "quiet": true
+          }
+        }
+      },
+      "version": "4.0.1"
+    }
+  }
+}

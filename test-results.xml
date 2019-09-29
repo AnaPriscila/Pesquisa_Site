@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.407" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2019-09-28T23:34:53" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Pesquisa Site" timestamp="2019-09-28T23:34:53" tests="1" file="C:\Users\ana_p\Ana_Projetos\Pesquisa_Site\Pesquisa_Site_test.js" failures="1" time="10.407">
+    <testcase name="Pesquisa Site &quot;before all&quot; hook: codeceptjs.beforeSuite for &quot;test something&quot;" time="10.407" classname="&quot;before all&quot; hook: codeceptjs.beforeSuite for &quot;test something&quot;">
+      <failure message="Could not request headers from https://selenium-release.storage.googleapis.com/3.14/IEDriverServer_x64_3.14.0.zip: Error: Client network socket disconnected before secure TLS connection was established" type="Error"><![CDATA[Could not request headers from https://selenium-release.storage.googleapis.com/3.14/IEDriverServer_x64_3.14.0.zip: Error: Client network socket disconnected before secure TLS connection was established]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
