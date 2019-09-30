@@ -7,24 +7,18 @@ exports.config = {
       browser: 'chrome'
     },
     Mochawesome:{
-    uniqueScreenshotNames: true
+      uniqueScreenshotNames: true
     }
   },  
   include: {
     I: './steps_file.js'
   },
   bootstrap: null,
-  mocha: {},
   name: 'Pesquisa_Site',
   plugins:{
     wdio:{
       enabled: true,
       services: ['selenium-standalone']
-    }
-  },
-  mocha: {
-    reporterOptions: {
-        mochaFile: "output/result.xml"
     }
   },
   mocha: {
